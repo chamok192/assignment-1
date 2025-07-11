@@ -47,7 +47,15 @@ header nav {
     border: none;
     cursor: pointer;
 }
-
+#signup-btn:hover {
+    background-color: orange;
+}
+#signup-btn:active {
+    background-color: white;
+    color: #4E47FF;
+    border: 2px solid orange;
+    transform: scale(0.95);
+}
 /* hero section styles  */
 .hero {
     max-width: 905px;
@@ -80,6 +88,16 @@ header nav {
     border: none;
     cursor: pointer;
     margin-top: 45px;
+}
+#hero-btn:hover {
+    background-color: orange;
+}
+
+#hero-btn:active {
+    background-color: white;
+    color: #4E47FF;
+    border: 2px solid orange;
+    transform: scale(0.95);
 }
 
 main {
@@ -134,6 +152,16 @@ main {
     border: none;
     cursor: pointer;
     margin-top: 30px;
+}
+#action-btn:hover {
+    background-color: orange;
+}
+
+#action-btn:active {
+    background-color: white;
+    color: #4E47FF;
+    border: 2px solid orange;
+    transform: scale(0.95);
 }
 
 .action-image {
@@ -318,6 +346,16 @@ main {
     cursor: pointer;
     margin-top: 20px;
 }
+.get-in-touch-btn:hover {
+    background-color: orange;
+}
+
+.get-in-touch-btn:active {
+    background-color: white;
+    color: #4E47FF;
+    border: 2px solid orange;
+    transform: scale(0.95);
+}
 
 
 /* footer section styles  */
@@ -359,4 +397,8 @@ footer {
 .footer-links {
     display: flex;
     gap: 30px;
+}
+.footer-link:hover {
+    color: orange;
+    font-size: medium;
 }
