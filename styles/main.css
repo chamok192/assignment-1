@@ -25,10 +25,14 @@ header nav {
 #logo {
     font-family: "Inter", sans-serif;
     font-weight: 900;
-    font-size: 34px;
-    color: #4E47FF;
     margin: 0;
     padding: 0;
+}
+
+#logo a {
+    text-decoration: none;
+    color: #4E47FF;
+    font-size: 34px;
 }
 
 #signup-btn {
@@ -180,6 +184,75 @@ main {
     text-align: center;
 }
 
+/* challenge section styles  */
+.review {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.review h2 {
+    font-size: 42px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    color: #252432;
+}
+
+.review-box h3 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    color: #252432;
+    margin-top: 20px;
+}
+
+.review-box p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #252432;
+    margin-top: 10px;
+}
+
+.review-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 6% 0;
+}
+
+.star-color {
+    color: #FFB805;
+}
+
+.review-box {
+    width: 27%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.user-id {
+    font-size: 16px;
+    font-weight: 600 !important;
+    font-family: "Inter", sans-serif;
+    color: #5a5866 !important;
+    margin: 0 !important;
+}
+
+.date {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #9c9aaf !important;
+    margin: 0 !important;
+}
+
 /* let's get in touch section styles  */
 .get-in-touch {
     max-width: 80%;
@@ -246,6 +319,7 @@ main {
     margin-top: 20px;
 }
 
+
 /* footer section styles  */
 footer {
     width: 100%;
@@ -272,6 +346,7 @@ footer {
     color: #8987A1;
     margin: 20px 0;
 }
+
 .footer-content a {
     font-size: 16px;
     font-weight: 400;
@@ -280,8 +355,8 @@ footer {
     text-decoration: none;
     display: block;
 }
+
 .footer-links {
     display: flex;
     gap: 30px;
 }
-
