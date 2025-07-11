@@ -34,7 +34,7 @@ header nav {
     background: #4E47FF;
     border-radius: 10px;
     color: #fff;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 16px;
     border: none;
@@ -64,10 +64,66 @@ header nav {
     background: #4E47FF;
     border-radius: 10px;
     color: #fff;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 16px;
     border: none;
     cursor: pointer;
     margin-top: 45px;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background-color:rgba(214, 221, 237, 0.3);
+}
+
+/* action section styles  */
+.action {
+    max-width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 0;
+}
+.action-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.action-info h3{
+    font-size: 42px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    color: #252432;   
+}
+.action-info p {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    color: rgba(37, 36, 50, 0.5);
+    margin-top: 20px;
+}
+#action-btn {
+    width: 229px;
+    height: 48px;
+    background: #4E47FF;
+    border-radius: 10px;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.action-image {
+    width: 403px;
+    height: 328px;
+    background: url("./Assets/wc-mini.png");
+    border-radius: 48px;
 }
