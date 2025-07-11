@@ -179,3 +179,68 @@ main {
     color: rgba(0, 0, 0, 0.5);
     text-align: center;
 }
+
+/* let's get in touch section styles  */
+.get-in-touch {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.get-in-touch-title {
+    max-width: 55%;
+    font-size: 97px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+/* get in touch form styles  */
+.contact-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.label {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: #000000;
+}
+
+.input-field {
+    height: 70px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    padding-left: 20px;
+}
+
+#message {
+    height: 115px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    font-size:16px ;
+    font-family: "Inter", sans-serif;
+    padding: 20px 0px 0px 20px;
+}
+.get-in-touch-btn {
+    height: 62px;
+    background: #4E47FF;
+    border-radius: 10px;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
